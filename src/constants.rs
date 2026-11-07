@@ -182,6 +182,8 @@ pub enum Popups {
     MoveInputSelection,
     /// File path entry for loading a PGN file.
     LoadPgnPath,
+    /// Paste PGN text directly into the viewer.
+    LoadPgnPaste,
     /// Spinner to make user wait
     Loading,
     /// Text input for chess engine path.
